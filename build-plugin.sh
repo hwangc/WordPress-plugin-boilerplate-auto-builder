@@ -36,7 +36,7 @@ else
 	read PLUGIN_ROOT
 
 	if [ "$PLUGIN_ROOT" == "n" ]; then
-		echo "Please put this file in the root of the plugin folder and retry!"
+		echo "Please put this file in the root of the plugin folder( ex: WordPress-Plugin-Boilerplate ) and retry!"
 		exit 1
 	fi
 fi
@@ -96,6 +96,9 @@ echo "
 
 	rm -rf $DEFAULT_SLUG
 
+else
+	mv $DEFAULT_SLUG/* ./
+	rm -rf $DEFAULT_SLUG
 fi
 
 #=========================================

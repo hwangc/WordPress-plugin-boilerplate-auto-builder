@@ -25,7 +25,7 @@ I refered to the build code from hlashbrooke/WordPress-Plugin-Template(https://g
 6. Remove or keep your Grunt file
 7. Create symbolic link
 
-** if you already have cloned WordPress Plugin Boilerplate, clone this builder into WordPress-Plugin-Boilerplate/plugin-name and when you build the plugin, say 'no' to git init question.
+** if you already have cloned WordPress Plugin Boilerplate, clone this builder into WordPress-Plugin-Boilerplate and when you build the plugin, say 'no' to git init question.
 
 == Changelog ==
 

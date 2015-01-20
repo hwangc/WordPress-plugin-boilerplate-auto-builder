@@ -23,6 +23,7 @@ I refered to the build code from hlashbrooke/WordPress-Plugin-Template(https://g
 4. If you choose git init yes, it will clone WordPress-Plugin-Boilerplate from the url you input (ex: https://github.com/hwangc/WordPress-Plugin-Boilerplate.git).
 5. Init git
 6. Remove or keep your Grunt file
+7. Create symbolic link
 
 ** if you already have cloned WordPress Plugin Boilerplate, clone this builder into WordPress-Plugin-Boilerplate/plugin-name and when you build the plugin, say 'no' to git init question.
 
